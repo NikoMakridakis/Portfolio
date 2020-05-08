@@ -1,0 +1,72 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT :	FLATRICA | MATERIAL CV
+VERSION :	2.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+1. BODY
+
+    2.PRE-LOADER / #loading
+         2.1 NAME & STATUS / .text-holder
+          2.1.1 NAME / h2
+          2.1.2 STATUS / h6
+
+ 	3. HEADER / #home
+	     3.1 NAVIGATION / #themenu
+		    3.1.1 MENU / #menu-options
+		      3.1.1.1 PERSONAL LOGO / .logo-flat
+		      3.1.1.2 OPTIONS / a
+		    3.1.2 MENU BUTTON / #menuToggle
+
+    4. V-CARD / #v-card-holder #v-card
+       4.1 PROFILE PICTURE / #profile
+       4.2 PROFILE DETAILS / .card-content
+         4.2.1 NAME & STATUS / .info-headings
+         4.2.2 CONTACT INFO / .infos
+         4.2.3 LINKS / .links
+
+	5. ABOUT / #about
+	     5.1 DETAILS/ #about-card
+		   5.1.1 ABOUT PARAGRAPH / .card-content p
+		   5.1.1 BUTTONS / #about-btn
+
+    6. EDUCATION / #education
+         6.1 SECTION TITLE/ .section-title
+	     6.2 TIMELINE/ #timeline-education
+		   6.2.1 TIMELINE BLOCK / .timeline-block
+		     6.2.1 TIMELINE DOT / .timeline-dot
+		     6.2.2 TIMELINE CONTENT / .timeline-content
+		       6.2.2.1 TIMELINE TITLE / .timeline-title
+		       6.2.2.2 TIMELINE TITLE INFO / .timeline-info
+		       6.2.2.3 TIMELINE PARAGRAPH / p
+
+    7. EXPERIENCE / #experience
+         8.1 SECTION TITLE/ .section-title
+		 7.2 TIMELINE / #timeline-experience
+		   7.2.1 TIMELINE BLOCK / .timeline-block
+		     7.2.1 TIMELINE DOT / .timeline-dot
+		     7.2.2 TIMELINE CONTENT / .timeline-content
+		       7.2.2.1 TIMELINE TITLE / .timeline-title
+		       7.2.2.2 TIMELINE TITLE INFO / .timeline-info
+		       7.2.2.3 TIMELINE PARAGRAPH / p
+
+    8. MODALS /
+	     8.1 MODAL HEADER/ .modal-header
+		 8.2 MODAL BODY / .modal-body
+		 8.3 MODAL FOOTER / .modal-footer
+
+    9. CONTACT / #contact
+         9.1 SECTION TITLE/ .section-title
+         9.2 CONTACT FORM / #contact-form
+         9.2. MAP / #myMap
+
+    10. SCROLL TO TOP / #scroll-top
+         10.1 BUTTON / #scrollup
+
+    12. SINGLE PAGE / .single-page
+
+-------------------------------------------------------------------*/
