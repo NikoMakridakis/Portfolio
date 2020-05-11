@@ -608,6 +608,7 @@ video {
 #about {
   /*profile about*/
   /* margin-top: 222px;*/
+  padding-bottom: 0px;
   transition: all 1s; }
   #about .about-btn {
     /*about buttons*/
@@ -1504,7 +1505,8 @@ POPUP ANIMATIONS
         width: 90%; }
     .single-page .post .post-body {
       /*post body*/
-      padding: 20px; }
+      padding: 20px;
+      padding-bottom: 0px; }
       .single-page .post .post-body .client-info {
         border-left: 4px solid #1976D2;
         padding: 0 0 0 6px; }
