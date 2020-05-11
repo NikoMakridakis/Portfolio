@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Trimatrix Lab">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <title>Single Portfolio</title>
+
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+
+    <!-- SWIPER -->
+    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+<!--==========================================
+                  PRE-LOADER
+===========================================-->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="box-holder animated bounceInDown">
+                <span class="load-box"><span class="box-inner"></span></span>
+            </div>
+            <!-- NAME & STATUS -->
+            <div class="text-holder text-center">
+                <h2>PORTFOLIO</h2>
+                <h6>Loading Details</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--==========================================
+                  BACK TO HOME
+===========================================-->
+<div class="back-button"><span><i class="fa fa-angle-left"></i></span></div>
+
+
+<!--==========================================
+                 BACKGROUND
+===========================================-->
+<div class="single-background"></div>
+
+<!--==========================================
+                 SINGLE PORTFOLIO
+===========================================-->
+<section class="single-page">
+    <div class="container">
+        <!--SECTION TITLE-->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Portfolio</h4>
+        </div>
+        <!--PORTFOLIO HOLDER-->
+        <div class="row" id="primary">
+            <!--PORTFOLIO CONTENT-->
+            <div id="content" class="col-sm-12">
+                <div class="post card">
+                    <!--PORTFOLIO IMAGE SLIDER-->
+                    <div class="post-image">
+
+                        <!-- SLIDER STRUCTURE -->
+                        <div id="clients-slider"
+                             class="swiper-container swiper-container-portfolios">
+                            <div class="swiper-wrapper">
+                                <!-- SLIDE ONE -->
+                                <div class="swiper-slide">
+                                    <img class="img-responsive" alt="demo" src="images/portfolio-website/single-1.png">
+                                </div>
+
+                                <!-- SLIDE TWO -->
+                                <div class="swiper-slide">
+                                    <img class="img-responsive" alt="demo" src="images/portfolio-website/single-2.png">
+                                </div>
+
+                                <!-- SLIDE THREE -->
+                                <div class="swiper-slide">
+                                    <img class="img-responsive" alt="demo" src="images/portfolio-website/single-3.png">
+                                </div>
+                            </div>
+                            <!-- ADD PAGINATION -->
+                            <div class="swiper-pagination swiper-pagination-portfolios"></div>
+                        </div>
+
+                    </div>
+
+                    <!--PORTFOLIO TITLE AND DETAILS-->
+                    <header>
+                        <h2>Portfolio Website
+                        </h2>
+                    </header>
+                    <!--BODY-->
+                    <div class="post-body">
+                        <h3>Project Details</h3>
+                        <p>I've created this responsive website using a template and deployed it on a classic apache http server.</p>
+                        </p>
+
+                        <div class="client-info">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>PHP</p>
+                        </div>
+
+                        <div id="about" class="section">
+                            <!-- BUTTONS -->
+                            <div id="about-btn" class="card-action">
+                                <div class="about-btn">
+                                    <!-- DOWNLOAD CV BUTTON -->
+                                    <a href="https://github.com/NikoMakridakis/PortfolioWebsite" target="_blank" class="btn waves-effect">Source Code</a>
+                                    <!-- CONTACT BUTTON -->
+                                    <a href="https://www.nikomakridakis.com/" class="btn waves-effect">Live Website</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--==========================================
+                 SCROLL TO TOP
+===========================================-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
+</div>
+
+<!--==========================================
+                    SCRIPTS
+===========================================-->
+<script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+<script src="javascript/vendors/bootstrap.min.js"></script>
+<script src="javascript/vendors/materialize.min.js"></script>
+<script src="javascript/vendors/scrollreveal.min.js"></script>
+<script src="javascript/vendors/swiper.jquery.min.js"></script>
+<script src="javascript/single-page.js"></script>
+
+</body>
+</html>
