@@ -52,30 +52,7 @@
       background-color: $white;
     }
   }
-
-  #myMap {
-    /*google map*/
-    width: 100%;
-    height: 417px;
-    .map-label {
-      /*map label*/
-      width: 36px;
-      height: 36px;
-      border-radius: 50% 50% 50% 0;
-      background: $accent-color;
-      position: absolute;
-      -webkit-transform: rotate(-45deg)!important;
-      transform: rotate(-45deg)!important;
-      box-shadow: $box-shadow-light;
-    }
-  }
-  @-moz-document url-prefix() {
-    /*for firefox*/
-    #myMap {
-      /*google map*/
-      height: 412px;
-    }
-  }
+  
   @include phone_480 {
     #myMap {
       /*map*/
