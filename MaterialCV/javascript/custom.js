@@ -130,112 +130,6 @@
                 closeOnContentClick: true,
                 midClick: true
             });
-            /***MAGNIFICENT POPUP VIDEO***/
-            $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-                disableOn: 700,
-                type: 'iframe',
-                mainClass: 'mfp-fade',
-                removalDelay: 160,
-                preloader: false,
-                fixedContentPos: false
-            });
-        }
-
-        function initSkills() {
-            /***SKILLS***/
-            $('div.skillbar').each(function () {
-                $(this).find('div.skillbar-bar').css({
-                    width: $(this).attr('data-percent')
-                });
-            });
-        }
-
-        function initClientsSliders() {
-
-            /***CLIENTS LOGO SLIDER***/
-            var $clientcarousel = $('ul#clients-list');
-            var clients = $clientcarousel.children().length;
-            var clientwidth = (clients * 140); // 140px width for each client item
-            $clientcarousel.css('width', clientwidth);
-
-            var rotating = true;
-            var clientspeed = 1800;
-            setInterval(rotateClients, clientspeed);
-
-            $(document).on({
-                mouseenter: function () {
-                    rotating = false;
-                    // Turn off rotation when hovering
-                },
-                mouseleave: function () {
-                    rotating = true;
-                }
-            }, '#clients');
-
-            function rotateClients() {
-                if (rotating !== false) {
-                    var $first = $('ul#clients-list').find('li:first');
-                    $first.animate({'margin-left': '-140px'}, 2000, function () {
-                        $first.remove().css({'margin-left': '0px'});
-                        $('ul#clients-list').find('li:last').after($first);
-                    });
-                }
-            }
-
-
-            /***CLIENTS QUOTE SLIDER***/
-            var swiper =  new Swiper('.swiper-container-clients', {
-                pagination: '.swiper-pagination-clients',
-                a11y: true,
-                keyboardControl: true,
-                autoHeight: true,
-                speed: 800,
-                paginationClickable: true
-            });
-
-        }
-
-
-        function initVideoPlayAndClose() {
-            /***VIDEO PLAY BUTTON***/
-            $('#html-video').addClass('hidden');
-            $('#play-btn').on('click', function () {
-                var htmlVideo = '#html-video';
-                var vCard = '#v-card';
-                var playButtonHolder = '#button-holder';
-                var playIcon = '#icon-play';
-                $(playButtonHolder).addClass('middle');
-                setTimeout(function () {
-                    $(vCard).addClass('hide-overflow');
-                    $('body').addClass('scale-effect');
-                    $(vCard).addClass('height-change');
-                }, 600);
-                setTimeout(function () {
-                    $(playIcon).hide();
-                    $(htmlVideo).removeClass('hidden');
-                    $(htmlVideo)[0].play();
-                    $('#play-btn').addClass('black');
-                }, 1000);
-
-            });
-
-            /***VIDEO CLOSE BUTTON***/
-            $('#close-btn').on('click', function () {
-                var htmlVideo = '#html-video';
-                var vCard = '#v-card';
-                var playButtonHolder = '#button-holder';
-                var playIcon = '#icon-play';
-                $('body').removeClass('scale-effect');
-                setTimeout(function () {
-                    $(playIcon).show();
-                    $(playButtonHolder).removeClass('middle');
-                    $(vCard).removeClass('hide-overflow');
-                }, 1000);
-                $(vCard).removeClass('height-change');
-                $(htmlVideo).addClass('hidden');
-                $(htmlVideo)[0].pause();
-                $('#play-btn').removeClass('black');
-            });
         }
 
         function initMail() {
@@ -274,9 +168,6 @@
         initSmoothScroll();      // enables SmoothScroll
         initScrollToTop();       // Smooth Scroll To Top
         initPortfolio();         // Initializes Portfolios Gallery
-        initSkills();            // Sets Skills Bar Width
-        initClientsSliders();    // Initializes Clients Sliders
-        initVideoPlayAndClose(); // Video Play and Close Functionality
         initMail();              // Mail Initialization
 
     });

@@ -1,8 +1,0 @@
-/*colors*/
-
-/*white*/
-card, timeline background: #fff;
-
-/*blue*/
-$primary-color: #1F5694;
-$accent-color: #ff5722;
