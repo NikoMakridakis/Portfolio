@@ -6,7 +6,7 @@
        /***SCROLL TO TOP***/
         $(window).on('scroll', function () {
             if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-                $('div#scrollup').addClass('animated flipInY').fadeIn(200);    // Fade in the arrow
+                $('div#scrollup').addClass('animated fadeInDown').fadeIn(200);    // Fade in the arrow
             } else {
                 $('div#scrollup').fadeOut(200);
             }
