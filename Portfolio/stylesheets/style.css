@@ -1450,7 +1450,7 @@ POPUP ANIMATIONS
     position: relative;
     color: #fff; }
     .single-page .section-title i {
-      color: #06A763;
+      color: #1976D2;
       padding: 12px; }
     .single-page .section-title img {
       width: 66px;
@@ -1484,7 +1484,7 @@ POPUP ANIMATIONS
     .single-page .post header {
       /*headings*/
       padding: 20px;
-      background: #06A763;
+      background: #1976D2;
       color: #fff; }
       .single-page .post header h3 {
         margin: 0 0 15px;
@@ -1516,7 +1516,7 @@ POPUP ANIMATIONS
   .single-page .widget-holder {
     /*side widget stuffs*/ }
     .single-page .widget-holder h4 {
-      background: #06A763;
+      background: #1976D2;
       color: #fff;
       font-size: 24px;
       padding: 15px; }
