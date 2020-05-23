@@ -5,6 +5,7 @@
 
 mail_handler.php
 
+
 # User-specific files
 *.rsuser
 *.suo
